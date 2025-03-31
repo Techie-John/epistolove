@@ -10,7 +10,7 @@ export async function POST(request) {
         'Authorization': `Bearer ${process.env.GROQ_API_KEY}`,
       },
       body: JSON.stringify({
-        model: 'mistral-saba-24b',
+        model: 'llama-3.3-70b-versatile',
         messages: [
           {
             role: 'system',
